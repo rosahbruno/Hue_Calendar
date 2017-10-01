@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="event_color_05">#3e7c7e</color>
+    <color name="event_color_06">#df2d0b</color>
+    <color name="event_color_07">#04be06</color>
+    <color name="event_color_08">#4513b1</color>
+    <color name="event_color_09">#9c3b40</color>
+    <color name="event_color_010">#a45972</color>
+
+
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#000000</color>
+
+        <color name="colorPrimary">#99ccff</color>
+        <color name="colorPrimaryDarker">#3399ff</color>
+        <color name="colorPrimaryDarkest">#0066cc</color>
+        <color name="colorAccent">#ffffff</color>
+        <color name="bgGray">#8f000000</color>
+
+        <color name="white">#FFFFFF</color>
+        <color name="yellow">#FFFF00</color>
+        <color name="fuchsia">#FF00FF</color>
+        <color name="red">#FF0000</color>
+        <color name="silver">#C0C0C0</color>
+        <color name="gray">#808080</color>
+        <color name="olive">#808000</color>
+        <color name="purple">#800080</color>
+        <color name="maroon">#800000</color>
+        <color name="aqua">#00FFFF</color>
+        <color name="lime">#00FF00</color>
+        <color name="teal">#008080</color>
+        <color name="green">#008000</color>
+        <color name="blue">#0000FF</color>
+        <color name="navy">#000080</color>
+        <color name="black">#000000</color>
+    <color name="indicator_unselected">#4D000000</color>
+    <color name="black_trans80">#14000000</color>
+    <color name="blue_grey">#455A64</color>
+    <color name="pink">#E91E63</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+
+    <color name="fab_color">#73b8f9</color>
+    <color name="fab_color_2">#ffffff</color>
+</resources>

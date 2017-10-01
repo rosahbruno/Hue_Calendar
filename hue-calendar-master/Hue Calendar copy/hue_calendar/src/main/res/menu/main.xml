@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <group android:checkableBehavior="single">
+
+        //0
+        <item android:id="@+id/action_today"
+            android:title="@string/action_today"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"/>
+
+        //1
+        <item android:id="@+id/action_day_view"
+            android:title="@string/action_day_view"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"/>
+
+        //2
+        <item android:id="@+id/action_three_day_view"
+            android:title="@string/action_three_day_view"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"
+            android:checked="true"/>
+
+        //3
+        <item android:id="@+id/action_week_view"
+            android:title="@string/action_week_view"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"/>
+
+        //4
+        <item android:id="@+id/basic_activity"
+            android:title="@string/calendar"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"/>
+
+        //5
+        <item android:id="@+id/light_bulbs"
+            android:title="@string/light_bulbs"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"/>
+
+        //6
+        <item android:id="@+id/home_activity"
+            android:title="@string/home_activity"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"/>
+
+        //7
+        <item android:id="@+id/find_new_bridge"
+            android:title="@string/menu_find_bridge"
+            app:showAsAction="ifRoom"/>
+
+        //8
+        <item android:id="@+id/PHbulbActivity"
+            android:title="@string/light_bulbs"
+            android:showAsAction="ifRoom"/>
+
+        //9
+
+
+    </group>
+</menu>

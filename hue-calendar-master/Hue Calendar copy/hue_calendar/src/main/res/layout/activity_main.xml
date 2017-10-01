@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="nillawaffers.myapplication.MainActivity">
+
+    <include layout="@layout/activity_base" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@color/fab_color"
+        android:tint="@color/fab_color_2"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        app:elevation="0dp"/>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

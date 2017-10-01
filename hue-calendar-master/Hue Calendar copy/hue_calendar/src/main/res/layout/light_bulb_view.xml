@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nillawaffer.hue.calendar.LightBulbs"
+    android:id="@+id/layout"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/light_bulbs"
+        android:id="@+id/titleLabel"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topRow"
+        android:layout_gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/firstBulb"
+            android:layout_weight="0.33"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton1"
+                android:id="@+id/label1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/secondBulb"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton2"
+                android:id="@+id/label2"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton2"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/thirdBulb"
+            android:layout_weight="0.33"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton3"
+                android:id="@+id/label3"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton3"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/middleRow"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/forthBulb"
+            android:layout_weight="0.33"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton4"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton4"
+                android:id="@+id/label4"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton4"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fifthBulb"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton5"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton5"
+                android:gravity="center"
+                android:id="@+id/label5"
+                android:layout_centerHorizontal="true"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton5"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sixthBulb"
+            android:layout_weight="0.33"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton6"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton6"
+                android:id="@+id/label6"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton6"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomRow"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/seventhBulb"
+            android:layout_weight="0.33"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton7"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton7"
+                android:id="@+id/label7"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton7"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eigthBulb"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton8"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton8"
+                android:id="@+id/label8"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton8"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ninthBulb"
+            android:layout_weight="0.33"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton9"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton9"
+                android:id="@+id/label9"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton9"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forthRow"
+        android:layout_gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tenthBulb"
+            android:layout_weight="0.33"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton10"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton10"
+                android:id="@+id/label10"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton10"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eleventhBulb"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton11"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton11"
+                android:id="@+id/label11"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton11"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/twelfthBulb"
+            android:layout_weight="0.33"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton12"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/imgbutton12"
+                android:id="@+id/label12"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_below="@+id/imageButton12"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done_button"
+        android:id="@+id/doneButton"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
